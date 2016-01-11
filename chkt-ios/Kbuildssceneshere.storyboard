@@ -70,7 +70,42 @@ RECORDATORIO DE CITA</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MPi-UI-vXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2307.5" y="398.5"/>
+            <point key="canvasLocation" x="2113.5" y="102.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GQs-76-MKi">
+            <objects>
+                <viewController id="g8Y-3t-xY9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hrB-qX-RhY"/>
+                        <viewControllerLayoutGuide type="bottom" id="36E-hd-RuT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uJh-pg-eo7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tYT-Mq-kFy">
+                                <rect key="frame" x="89" y="356" width="196" height="45"/>
+                                <color key="backgroundColor" red="0.67450980390000004" green="0.82745098039999998" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="CREAR RECORDATORIO">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Consulta tu agenda y agenda citas" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OT-Z7-3IW">
+                                <rect key="frame" x="64" y="65" width="247" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="goW-EJ-7Y0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2622" y="103"/>
         </scene>
     </scenes>
 </document>
