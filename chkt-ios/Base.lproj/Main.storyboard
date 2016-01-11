@@ -18,6 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LoginScreen_Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="aiV-9N-GBu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="#CHKT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ig-vq-fU2">
                                 <rect key="frame" x="124" y="69" width="127" height="53"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
@@ -97,7 +100,7 @@
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW" userLabel="REGISTRO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -206,7 +209,7 @@
                                     <color key="titleShadowColor" red="0.49019610879999997" green="0.77647066119999997" blue="0.52156865600000002" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oxz-i6-5kw" kind="show" id="mbj-Nu-THL"/>
+                                    <segue destination="zZH-9I-Kd9" kind="show" id="5jr-VS-tU6"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="#CHKT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsR-Wd-H6d">
@@ -252,7 +255,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Fc-yV-c4q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1368.5" y="-85.5"/>
+            <point key="canvasLocation" x="1884.5" y="-177.5"/>
         </scene>
         <!--CITAS-->
         <scene sceneID="h53-lM-lTA">
@@ -583,17 +586,65 @@
             </objects>
             <point key="canvasLocation" x="2604.5" y="-1714.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="UpD-6P-kkJ">
+            <objects>
+                <viewController id="zZH-9I-Kd9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hax-D1-P3z"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZhB-PB-ThX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LJ0-Ja-Z0R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PROFILE_ICON.png" translatesAutoresizingMaskIntoConstraints="NO" id="wjk-DH-ip8">
+                                <rect key="frame" x="121" y="138" width="132" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BIENVENIDO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8Z-Sp-iLb">
+                                <rect key="frame" x="134" y="77" width="106" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre del Usuario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdj-BV-ZfC">
+                                <rect key="frame" x="121" y="289" width="153" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contesta las siguientes preguntas para conocer el estado de tu salud." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbp-V1-bRu">
+                                <rect key="frame" x="62" y="340" width="270" height="91"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucb-6K-qkU">
+                                <rect key="frame" x="129" y="463" width="137" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="CUESTIONARIO">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jel-c9-I5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1581.5" y="-952.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Cardio_Icon_2-3.png" width="36" height="49"/>
         <image name="Clock_Icon_2.png" width="36" height="49"/>
         <image name="Doctor_Icon_2.png" width="36" height="49"/>
         <image name="Down_Arrow_Icon.png" width="24" height="24"/>
+        <image name="LoginScreen_Background.png" width="750" height="1334"/>
+        <image name="PROFILE_ICON.png" width="254" height="254"/>
         <image name="ic_email_white_36pt_3x.png" width="108" height="108"/>
         <image name="ic_lock_white_36pt_3x.png" width="108" height="108"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="BVM-4w-Hon"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.979248046875" green="0.979248046875" blue="0.979248046875" alpha="0.0" colorSpace="calibratedRGB"/>
 </document>
