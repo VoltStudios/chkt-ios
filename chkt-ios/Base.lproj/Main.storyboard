@@ -273,7 +273,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiB-v9-Uez" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2454.5" y="-420.5"/>
+            <point key="canvasLocation" x="2499.5" y="-111.5"/>
         </scene>
         <!--EXPEDIENTE-->
         <scene sceneID="m9e-rb-1sM">
@@ -305,6 +305,11 @@
                     <view key="view" contentMode="scaleToFill" id="fbB-vZ-yhr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="325" affinity="minX"/>
+                            <userLayoutGuide location="552" affinity="minY"/>
+                            <userLayoutGuide location="105" affinity="minY"/>
+                        </userGuides>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tP6-tt-16E">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -327,15 +332,101 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TBJ-dP-6nL">
+                                <rect key="frame" x="217" y="538" width="124" height="31"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZR5-24-Kw5">
+                                <rect key="frame" x="137" y="473" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="TQr-E5-jEh"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="g3y-td-wOj"/>
+                                    <constraint firstAttribute="width" constant="200" id="x1f-ig-7cB"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="TQr-E5-jEh"/>
+                                    </mask>
+                                </variation>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OWe-rz-unI">
+                                <rect key="frame" x="137" y="408" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="dtL-Ct-Cma"/>
+                                    <constraint firstAttribute="width" constant="200" id="obu-ZP-M9c"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="sWD-Pr-6fy"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="obu-ZP-M9c"/>
+                                    </mask>
+                                </variation>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cHi-S9-fu1">
+                                <rect key="frame" x="137" y="343" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="EDE-1L-mcG"/>
+                                    <constraint firstAttribute="width" constant="200" id="PHr-mb-szl"/>
+                                    <constraint firstAttribute="width" constant="200" id="v09-zQ-hGi"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PHr-mb-szl"/>
+                                    </mask>
+                                </variation>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zMQ-5z-WZj">
+                                <rect key="frame" x="221" y="286" width="120" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Rvf-hb-fBl"/>
+                                    <constraint firstAttribute="width" constant="200" id="iHc-Po-PWU"/>
+                                </constraints>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YEg-wU-CNo">
+                                <rect key="frame" x="228" y="218" width="120" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="YfA-KW-0gI"/>
+                                    <constraint firstAttribute="width" constant="200" id="e7f-tJ-u0R"/>
+                                </constraints>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="09v-QZ-idO">
+                                <rect key="frame" x="217" y="148" width="120" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.99215692280000001" green="0.40392160420000001" blue="0.4274510145" alpha="1" colorSpace="deviceRGB"/>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DoZ-ti-5ZA">
+                                <rect key="frame" x="93" y="83" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="3Qi-cY-n2R"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="JK5-P4-Tfc"/>
+                                </constraints>
+                                <color key="minimumTrackTintColor" red="1" green="0.91764712329999998" blue="0.57254904510000004" alpha="1" colorSpace="deviceRGB"/>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TBJ-dP-6nL" firstAttribute="top" secondItem="ZR5-24-Kw5" secondAttribute="bottom" constant="35" id="64I-r9-Vbv"/>
+                            <constraint firstItem="cHi-S9-fu1" firstAttribute="top" secondItem="zMQ-5z-WZj" secondAttribute="bottom" constant="35" id="C6s-og-c2G"/>
+                            <constraint firstItem="09v-QZ-idO" firstAttribute="top" secondItem="DoZ-ti-5ZA" secondAttribute="bottom" constant="35" id="Jwl-aP-6Ro"/>
+                            <constraint firstItem="YEg-wU-CNo" firstAttribute="top" secondItem="09v-QZ-idO" secondAttribute="bottom" constant="35" id="Xz8-Le-1sQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DoZ-ti-5ZA" secondAttribute="trailing" constant="64" id="cMI-a8-PQg"/>
+                            <constraint firstItem="zMQ-5z-WZj" firstAttribute="top" secondItem="YEg-wU-CNo" secondAttribute="bottom" constant="35" id="eVt-Gs-ByE"/>
+                            <constraint firstItem="DoZ-ti-5ZA" firstAttribute="leading" secondItem="fbB-vZ-yhr" secondAttribute="leadingMargin" constant="63" id="f34-ao-0Rw"/>
+                            <constraint firstItem="aCe-V7-RiE" firstAttribute="top" secondItem="TBJ-dP-6nL" secondAttribute="bottom" constant="50" id="mrM-ge-Qc2"/>
+                            <constraint firstItem="OWe-rz-unI" firstAttribute="top" secondItem="cHi-S9-fu1" secondAttribute="bottom" constant="35" id="p3a-yV-ELe"/>
+                            <constraint firstItem="ZR5-24-Kw5" firstAttribute="top" secondItem="OWe-rz-unI" secondAttribute="bottom" constant="35" id="sEK-lj-EJb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="cMI-a8-PQg"/>
+                                <exclude reference="f34-ao-0Rw"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="RIESGOS" image="Doctor_Icon_2.png" id="29b-xl-Mbs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JyJ-NF-iO1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationItem title="#CHKT" id="gGZ-Q0-AlN"/>
             </objects>
-            <point key="canvasLocation" x="2605" y="-1714"/>
+            <point key="canvasLocation" x="2604.5" y="-1714.5"/>
         </scene>
     </scenes>
     <resources>
