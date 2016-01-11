@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149A17D71C445A77006EE824 /* Image_Calendar_Good.png in Resources */ = {isa = PBXBuildFile; fileRef = 149A17D61C445A77006EE824 /* Image_Calendar_Good.png */; };
 		AC23CD381C43157A00A7C885 /* ic_lock_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */; };
 		AC23CD3A1C43158300A7C885 /* ic_email_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */; };
 		AC99F5101C422EE300CDD5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99F50F1C422EE300CDD5E1 /* AppDelegate.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149A17D61C445A77006EE824 /* Image_Calendar_Good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image_Calendar_Good.png; path = "chkt-ios/Image_Calendar_Good.png"; sourceTree = "<group>"; };
 		AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_white_36pt_3x.png; sourceTree = "<group>"; };
 		AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_white_36pt_3x.png; sourceTree = "<group>"; };
 		AC99F50C1C422EE300CDD5E1 /* chkt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chkt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,7 @@
 		AC99F5031C422EE300CDD5E1 = {
 			isa = PBXGroup;
 			children = (
+				149A17D61C445A77006EE824 /* Image_Calendar_Good.png */,
 				AC99F50E1C422EE300CDD5E1 /* chkt-ios */,
 				AC99F5251C422EE400CDD5E1 /* chkt-iosTests */,
 				AC99F5301C422EE400CDD5E1 /* chkt-iosUITests */,
@@ -268,6 +271,7 @@
 			files = (
 				ACB309E31C44546C008618E4 /* LoginScreen_Background.png in Resources */,
 				ACD8858A1C437B820083D173 /* Doctor_Icon_2.png in Resources */,
+				149A17D71C445A77006EE824 /* Image_Calendar_Good.png in Resources */,
 				AC99F51C1C422EE300CDD5E1 /* LaunchScreen.storyboard in Resources */,
 				ACB309E71C445AC8008618E4 /* Survey_Users_Start.png in Resources */,
 				ACB309CB1C4414BD008618E4 /* MarioBuildsScenesHere.storyboard in Resources */,
