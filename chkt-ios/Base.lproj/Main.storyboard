@@ -554,6 +554,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down_Arrow_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Sx-c1-All">
+                                <rect key="frame" x="347" y="478" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down_Arrow_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="0yL-Yv-dup">
+                                <rect key="frame" x="347" y="413" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down_Arrow_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="DmV-SH-nT4">
+                                <rect key="frame" x="347" y="348" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down_Arrow_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="BcM-fe-f2G">
+                                <rect key="frame" x="347" y="282" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down_Arrow_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="oVl-qW-X5J">
+                                <rect key="frame" x="347" y="217" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down_Arrow_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="aPr-lA-RnF">
+                                <rect key="frame" x="347" y="162" width="20" height="20"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down_Arrow_Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="cTt-OS-zi5">
+                                <rect key="frame" x="347" y="113" width="20" height="20"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -569,6 +590,7 @@
         <image name="Cardio_Icon_2-3.png" width="36" height="49"/>
         <image name="Clock_Icon_2.png" width="36" height="49"/>
         <image name="Doctor_Icon_2.png" width="36" height="49"/>
+        <image name="Down_Arrow_Icon.png" width="24" height="24"/>
         <image name="LoginScreen_Background.png" width="750" height="1334"/>
         <image name="ic_email_white_36pt_3x.png" width="108" height="108"/>
         <image name="ic_lock_white_36pt_3x.png" width="108" height="108"/>
