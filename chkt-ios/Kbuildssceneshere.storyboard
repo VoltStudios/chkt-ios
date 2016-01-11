@@ -450,7 +450,7 @@ RECORDATORIO DE CITA</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Axm-0y-4Zk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103.5" y="-676.5"/>
+            <point key="canvasLocation" x="1311.5" y="-684.5"/>
         </scene>
         <!--Appt_Needed_PopUp-->
         <scene sceneID="lnt-FF-Lda">
