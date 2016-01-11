@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC23CD2A1C430F5000A7C885 /* LoginScreen_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD291C430F5000A7C885 /* LoginScreen_Background.png */; };
 		AC23CD381C43157A00A7C885 /* ic_lock_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */; };
 		AC23CD3A1C43158300A7C885 /* ic_email_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */; };
 		AC99F5101C422EE300CDD5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99F50F1C422EE300CDD5E1 /* AppDelegate.swift */; };
@@ -22,6 +21,7 @@
 		ACB309CD1C441502008618E4 /* Kbuildssceneshere.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB309CC1C441502008618E4 /* Kbuildssceneshere.storyboard */; };
 		ACB309D11C442B28008618E4 /* Down_Arrow_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB309D01C442B28008618E4 /* Down_Arrow_Icon.png */; };
 		ACB309D31C443861008618E4 /* LoginScreen_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB309D21C443861008618E4 /* LoginScreen_Background.png */; };
+		ACB309D91C444211008618E4 /* Login_Background_phone_IMG.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB309D81C444211008618E4 /* Login_Background_phone_IMG.png */; };
 		ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */; };
 		ACD8858A1C437B820083D173 /* Doctor_Icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD885891C437B820083D173 /* Doctor_Icon_2.png */; };
 		ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */; };
@@ -45,7 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AC23CD291C430F5000A7C885 /* LoginScreen_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginScreen_Background.png; path = ../../../Downloads/LoginScreen_Background.png; sourceTree = "<group>"; };
 		AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_white_36pt_3x.png; sourceTree = "<group>"; };
 		AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_white_36pt_3x.png; sourceTree = "<group>"; };
 		AC99F50C1C422EE300CDD5E1 /* chkt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chkt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +65,7 @@
 		ACB309CC1C441502008618E4 /* Kbuildssceneshere.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Kbuildssceneshere.storyboard; sourceTree = "<group>"; };
 		ACB309D01C442B28008618E4 /* Down_Arrow_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Down_Arrow_Icon.png; sourceTree = "<group>"; };
 		ACB309D21C443861008618E4 /* LoginScreen_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginScreen_Background.png; sourceTree = "<group>"; };
+		ACB309D81C444211008618E4 /* Login_Background_phone_IMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Login_Background_phone_IMG.png; path = ../Login_Background_phone_IMG.png; sourceTree = "<group>"; };
 		ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardio_Icon_2-3.png"; sourceTree = "<group>"; };
 		ACD885891C437B820083D173 /* Doctor_Icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor_Icon_2.png; sourceTree = "<group>"; };
 		ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock_Icon_2.png; sourceTree = "<group>"; };
@@ -119,6 +119,7 @@
 		AC99F50E1C422EE300CDD5E1 /* chkt-ios */ = {
 			isa = PBXGroup;
 			children = (
+				ACB309D81C444211008618E4 /* Login_Background_phone_IMG.png */,
 				AC99F50F1C422EE300CDD5E1 /* AppDelegate.swift */,
 				AC99F5111C422EE300CDD5E1 /* FirstViewController.swift */,
 				AC99F5131C422EE300CDD5E1 /* SecondViewController.swift */,
@@ -131,7 +132,6 @@
 				ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */,
 				ACB309D01C442B28008618E4 /* Down_Arrow_Icon.png */,
 				ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */,
-				AC23CD291C430F5000A7C885 /* LoginScreen_Background.png */,
 				AC99F5181C422EE300CDD5E1 /* Assets.xcassets */,
 				AC99F51A1C422EE300CDD5E1 /* LaunchScreen.storyboard */,
 				AC99F51D1C422EE300CDD5E1 /* Info.plist */,
@@ -265,8 +265,8 @@
 				ACB309D31C443861008618E4 /* LoginScreen_Background.png in Resources */,
 				ACD8858A1C437B820083D173 /* Doctor_Icon_2.png in Resources */,
 				AC99F51C1C422EE300CDD5E1 /* LaunchScreen.storyboard in Resources */,
+				ACB309D91C444211008618E4 /* Login_Background_phone_IMG.png in Resources */,
 				ACB309CB1C4414BD008618E4 /* MarioBuildsScenesHere.storyboard in Resources */,
-				AC23CD2A1C430F5000A7C885 /* LoginScreen_Background.png in Resources */,
 				AC23CD381C43157A00A7C885 /* ic_lock_white_36pt_3x.png in Resources */,
 				AC99F5191C422EE300CDD5E1 /* Assets.xcassets in Resources */,
 				ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */,
