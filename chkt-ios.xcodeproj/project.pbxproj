@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		149A17D71C445A77006EE824 /* Image_Calendar_Good.png in Resources */ = {isa = PBXBuildFile; fileRef = 149A17D61C445A77006EE824 /* Image_Calendar_Good.png */; };
 		149A17D91C446889006EE824 /* Image_Continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 149A17D81C446889006EE824 /* Image_Continue.png */; };
+		149A17DB1C446D16006EE824 /* Image_MapMexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 149A17DA1C446D16006EE824 /* Image_MapMexico.png */; };
 		AC23CD381C43157A00A7C885 /* ic_lock_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */; };
 		AC23CD3A1C43158300A7C885 /* ic_email_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */; };
 		AC99F5101C422EE300CDD5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99F50F1C422EE300CDD5E1 /* AppDelegate.swift */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		149A17D61C445A77006EE824 /* Image_Calendar_Good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image_Calendar_Good.png; path = "chkt-ios/Image_Calendar_Good.png"; sourceTree = "<group>"; };
 		149A17D81C446889006EE824 /* Image_Continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_Continue.png; sourceTree = "<group>"; };
+		149A17DA1C446D16006EE824 /* Image_MapMexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_MapMexico.png; sourceTree = "<group>"; };
 		AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_white_36pt_3x.png; sourceTree = "<group>"; };
 		AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_white_36pt_3x.png; sourceTree = "<group>"; };
 		AC99F50C1C422EE300CDD5E1 /* chkt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chkt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 				ACB309CA1C4414BD008618E4 /* MarioBuildsScenesHere.storyboard */,
 				ACB309DC1C444753008618E4 /* PROFILE_ICON.png */,
 				ACB309CC1C441502008618E4 /* Kbuildssceneshere.storyboard */,
+				149A17DA1C446D16006EE824 /* Image_MapMexico.png */,
 				149A17D81C446889006EE824 /* Image_Continue.png */,
 				AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */,
 				AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */,
@@ -281,6 +284,7 @@
 				AC99F5191C422EE300CDD5E1 /* Assets.xcassets in Resources */,
 				ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */,
 				ACB309CD1C441502008618E4 /* Kbuildssceneshere.storyboard in Resources */,
+				149A17DB1C446D16006EE824 /* Image_MapMexico.png in Resources */,
 				ACB309D11C442B28008618E4 /* Down_Arrow_Icon.png in Resources */,
 				ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */,
 				ACB309E91C445ED9008618E4 /* Survey_Users_Start.png in Resources */,

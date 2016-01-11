@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--C1_ViewAppts-->
         <scene sceneID="RIr-iq-dTM">
             <objects>
-                <viewController id="jQy-hC-ZnC" sceneMemberID="viewController">
+                <viewController title="C1_ViewAppts" id="jQy-hC-ZnC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wVw-RE-3n5"/>
                         <viewControllerLayoutGuide type="bottom" id="8k6-jS-u5P"/>
@@ -105,10 +105,10 @@ RECORDATORIO DE CITA</string>
             </objects>
             <point key="canvasLocation" x="2113.5" y="102.5"/>
         </scene>
-        <!--View Controller-->
+        <!--C2_NewAppt-->
         <scene sceneID="GQs-76-MKi">
             <objects>
-                <viewController id="g8Y-3t-xY9" sceneMemberID="viewController">
+                <viewController title="C2_NewAppt" id="g8Y-3t-xY9" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hrB-qX-RhY"/>
                         <viewControllerLayoutGuide type="bottom" id="36E-hd-RuT"/>
@@ -180,10 +180,10 @@ RECORDATORIO DE CITA</string>
             </objects>
             <point key="canvasLocation" x="2621.5" y="102.5"/>
         </scene>
-        <!--View Controller-->
+        <!--B1_ExpandedRisks-->
         <scene sceneID="2p9-Ju-W8L">
             <objects>
-                <viewController id="2Xq-6a-kb2" sceneMemberID="viewController">
+                <viewController title="B1_ExpandedRisks" id="2Xq-6a-kb2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="amB-GW-pOp"/>
                         <viewControllerLayoutGuide type="bottom" id="cf5-8Y-3HL"/>
@@ -733,12 +733,90 @@ RECORDATORIO DE CITA</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4BI-ek-4ZZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2103.5" y="-676.5"/>
+            <point key="canvasLocation" x="2607.5" y="-676.5"/>
+        </scene>
+        <!--B3_AddZip-->
+        <scene sceneID="tL8-SA-cpP">
+            <objects>
+                <viewController title="B3_AddZip" id="ufm-cG-aHG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rbJ-oT-JWw"/>
+                        <viewControllerLayoutGuide type="bottom" id="H9M-j5-pLe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gGT-7o-ssz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UBICACIÓN DE MI CLÍNICA IMSS" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXw-mN-STi">
+                                <rect key="frame" x="64" y="65" width="247" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colonia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkt-dp-a3Y">
+                                <rect key="frame" x="52" y="390" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SLC-zh-G98">
+                                <rect key="frame" x="52" y="409" width="273" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calle y Número #" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bC-fD-fKz">
+                                <rect key="frame" x="52" y="335" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Ah-uc-dCk">
+                                <rect key="frame" x="52" y="354" width="273" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X3Q-8b-miI">
+                                <rect key="frame" x="52" y="467" width="273" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Iry-91-o1I">
+                                <rect key="frame" x="89" y="529" width="196" height="45"/>
+                                <color key="backgroundColor" red="0.67450980390000004" green="0.82745098039999998" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="UBICAR">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clínica IMSS más cercana de acuerdo a tu locación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtX-d4-cu0">
+                                <rect key="frame" x="65" y="94" width="246" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image_MapMexico.png" translatesAutoresizingMaskIntoConstraints="NO" id="e0r-vA-1QR">
+                                <rect key="frame" x="52" y="118" width="273" height="218"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Codigo Postal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UT5-TQ-kwl">
+                                <rect key="frame" x="52" y="447" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s1Q-NA-nm9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3069.5" y="-676.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Down_Arrow_Icon.png" width="24" height="24"/>
         <image name="Image_Calendar_Good.png" width="540" height="579"/>
         <image name="Image_Continue.png" width="540" height="579"/>
+        <image name="Image_MapMexico.png" width="540" height="579"/>
     </resources>
 </document>
