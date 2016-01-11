@@ -598,9 +598,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Survey_Users_Start.png" translatesAutoresizingMaskIntoConstraints="NO" id="Upm-Tb-SFh">
-                                <rect key="frame" x="0.0" y="-5" width="375" height="672"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PROFILE_ICON.png" translatesAutoresizingMaskIntoConstraints="NO" id="wjk-DH-ip8">
                                 <rect key="frame" x="121" y="138" width="132" height="128"/>
                             </imageView>
@@ -646,7 +643,6 @@
         <image name="Down_Arrow_Icon.png" width="24" height="24"/>
         <image name="LoginScreen_Background.png" width="750" height="1334"/>
         <image name="PROFILE_ICON.png" width="254" height="254"/>
-        <image name="Survey_Users_Start.png" width="640" height="1136"/>
         <image name="ic_email_white_36pt_3x.png" width="108" height="108"/>
         <image name="ic_lock_white_36pt_3x.png" width="108" height="108"/>
     </resources>
