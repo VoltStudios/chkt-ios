@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B028DB1C443C6400CF51E2 /* Calendar_Image_CITAS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B028DA1C443C6400CF51E2 /* Calendar_Image_CITAS.jpg */; };
 		AC23CD2A1C430F5000A7C885 /* LoginScreen_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD291C430F5000A7C885 /* LoginScreen_Background.png */; };
 		AC23CD381C43157A00A7C885 /* ic_lock_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */; };
 		AC23CD3A1C43158300A7C885 /* ic_email_white_36pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14B028DA1C443C6400CF51E2 /* Calendar_Image_CITAS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Calendar_Image_CITAS.jpg; sourceTree = "<group>"; };
 		AC23CD291C430F5000A7C885 /* LoginScreen_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginScreen_Background.png; path = ../../../Downloads/LoginScreen_Background.png; sourceTree = "<group>"; };
 		AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_lock_white_36pt_3x.png; sourceTree = "<group>"; };
 		AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_email_white_36pt_3x.png; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				ACB309CA1C4414BD008618E4 /* MarioBuildsScenesHere.storyboard */,
 				ACB309CC1C441502008618E4 /* Kbuildssceneshere.storyboard */,
 				AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */,
+				14B028DA1C443C6400CF51E2 /* Calendar_Image_CITAS.jpg */,
 				AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */,
 				ACD885891C437B820083D173 /* Doctor_Icon_2.png */,
 				ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */,
@@ -267,6 +270,7 @@
 				ACB309CD1C441502008618E4 /* Kbuildssceneshere.storyboard in Resources */,
 				ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */,
 				AC23CD3A1C43158300A7C885 /* ic_email_white_36pt_3x.png in Resources */,
+				14B028DB1C443C6400CF51E2 /* Calendar_Image_CITAS.jpg in Resources */,
 				AC99F5171C422EE300CDD5E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
