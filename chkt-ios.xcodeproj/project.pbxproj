@@ -18,6 +18,9 @@
 		AC99F51C1C422EE300CDD5E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC99F51A1C422EE300CDD5E1 /* LaunchScreen.storyboard */; };
 		AC99F5271C422EE400CDD5E1 /* chkt_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99F5261C422EE400CDD5E1 /* chkt_iosTests.swift */; };
 		AC99F5321C422EE400CDD5E1 /* chkt_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC99F5311C422EE400CDD5E1 /* chkt_iosUITests.swift */; };
+		ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */; };
+		ACD8858A1C437B820083D173 /* Doctor_Icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD885891C437B820083D173 /* Doctor_Icon_2.png */; };
+		ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		AC99F52D1C422EE400CDD5E1 /* chkt-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chkt-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC99F5311C422EE400CDD5E1 /* chkt_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chkt_iosUITests.swift; sourceTree = "<group>"; };
 		AC99F5331C422EE400CDD5E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardio_Icon_2-3.png"; sourceTree = "<group>"; };
+		ACD885891C437B820083D173 /* Doctor_Icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor_Icon_2.png; sourceTree = "<group>"; };
+		ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock_Icon_2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				AC99F5151C422EE300CDD5E1 /* Main.storyboard */,
 				AC23CD371C43157A00A7C885 /* ic_lock_white_36pt_3x.png */,
 				AC23CD391C43158300A7C885 /* ic_email_white_36pt_3x.png */,
+				ACD885891C437B820083D173 /* Doctor_Icon_2.png */,
+				ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */,
+				ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */,
 				AC23CD291C430F5000A7C885 /* LoginScreen_Background.png */,
 				AC99F5181C422EE300CDD5E1 /* Assets.xcassets */,
 				AC99F51A1C422EE300CDD5E1 /* LaunchScreen.storyboard */,
@@ -242,10 +251,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD8858A1C437B820083D173 /* Doctor_Icon_2.png in Resources */,
 				AC99F51C1C422EE300CDD5E1 /* LaunchScreen.storyboard in Resources */,
 				AC23CD2A1C430F5000A7C885 /* LoginScreen_Background.png in Resources */,
 				AC23CD381C43157A00A7C885 /* ic_lock_white_36pt_3x.png in Resources */,
 				AC99F5191C422EE300CDD5E1 /* Assets.xcassets in Resources */,
+				ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */,
+				ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */,
 				AC23CD3A1C43158300A7C885 /* ic_email_white_36pt_3x.png in Resources */,
 				AC99F5171C422EE300CDD5E1 /* Main.storyboard in Resources */,
 			);
