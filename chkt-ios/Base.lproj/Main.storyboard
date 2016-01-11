@@ -597,7 +597,7 @@
         <image name="ic_lock_white_36pt_3x.png" width="108" height="108"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mbj-Nu-THL"/>
+        <segue reference="BVM-4w-Hon"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.979248046875" green="0.979248046875" blue="0.979248046875" alpha="0.0" colorSpace="calibratedRGB"/>
 </document>
