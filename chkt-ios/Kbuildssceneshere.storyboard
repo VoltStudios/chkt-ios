@@ -871,10 +871,47 @@ tel: 01 55 5238 2700</string>
             </objects>
             <point key="canvasLocation" x="3545.5" y="-684.5"/>
         </scene>
+        <!--B5_ConfirmationTicket-->
+        <scene sceneID="0A4-Hd-jdA">
+            <objects>
+                <viewController title="B5_ConfirmationTicket" id="wYn-j4-M94" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Va6-uJ-PYs"/>
+                        <viewControllerLayoutGuide type="bottom" id="kRS-Zq-fY9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dS2-H3-J9Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UBICACIÓN DE MI CLÍNICA IMSS" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFa-gf-mdW">
+                                <rect key="frame" x="64" y="65" width="247" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Clínica IMSS más cercana de acuerdo a tu locación" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0m-7e-LDY">
+                                <rect key="frame" x="65" y="94" width="246" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image_Confirmation.png" translatesAutoresizingMaskIntoConstraints="NO" id="OLd-FX-Vyg">
+                                <rect key="frame" x="49" y="152" width="279" height="289"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="38N-5B-gM1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3967.5" y="-684.5"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Down_Arrow_Icon.png" width="24" height="24"/>
         <image name="Image_Calendar_Good.png" width="540" height="579"/>
+        <image name="Image_Confirmation.png" width="540" height="579"/>
         <image name="Image_Continue.png" width="540" height="579"/>
         <image name="Image_MapMexico.png" width="540" height="579"/>
         <image name="Image_StreetMap.png" width="540" height="579"/>
