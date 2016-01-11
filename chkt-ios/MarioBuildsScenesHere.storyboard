@@ -17,9 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Survey_Users_Start.png" translatesAutoresizingMaskIntoConstraints="NO" id="6yv-rq-dbf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PROFILE_ICON.png" translatesAutoresizingMaskIntoConstraints="NO" id="mdL-B3-naE">
                                 <rect key="frame" x="121" y="138" width="132" height="128"/>
                             </imageView>
@@ -60,6 +57,5 @@
     </scenes>
     <resources>
         <image name="PROFILE_ICON.png" width="254" height="254"/>
-        <image name="Survey_Users_Start.png" width="640" height="1136"/>
     </resources>
 </document>

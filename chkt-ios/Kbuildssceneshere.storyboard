@@ -57,9 +57,6 @@ RECORDATORIO DE CITA</string>
                                 <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Calendar_Image_CITAS.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="U3l-Ey-d5b">
-                                <rect key="frame" x="64" y="104" width="247" height="217"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Consulta tus citas al médico y al laboratorio" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zs-bZ-FyP">
                                 <rect key="frame" x="64" y="66" width="247" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -76,7 +73,4 @@ RECORDATORIO DE CITA</string>
             <point key="canvasLocation" x="2307.5" y="398.5"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Calendar_Image_CITAS.jpg" width="317" height="339"/>
-    </resources>
 </document>

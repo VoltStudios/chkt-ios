@@ -72,9 +72,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ic_lock_white_36pt_3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="7vQ-5o-JwV">
                                 <rect key="frame" x="87" y="344" width="47" height="40"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Login_Background_phone_IMG.png" translatesAutoresizingMaskIntoConstraints="NO" id="M2C-lg-dvx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -592,7 +589,6 @@
         <image name="Clock_Icon_2.png" width="36" height="49"/>
         <image name="Doctor_Icon_2.png" width="36" height="49"/>
         <image name="Down_Arrow_Icon.png" width="24" height="24"/>
-        <image name="Login_Background_phone_IMG.png" width="640" height="1136"/>
         <image name="ic_email_white_36pt_3x.png" width="108" height="108"/>
         <image name="ic_lock_white_36pt_3x.png" width="108" height="108"/>
     </resources>
