@@ -27,6 +27,7 @@
 		ACB309D11C442B28008618E4 /* Down_Arrow_Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB309D01C442B28008618E4 /* Down_Arrow_Icon.png */; };
 		ACB309DD1C444753008618E4 /* PROFILE_ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB309DC1C444753008618E4 /* PROFILE_ICON.png */; };
 		ACB309E31C44546C008618E4 /* LoginScreen_Background.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB309E21C44546C008618E4 /* LoginScreen_Background.png */; };
+		ACB309EB1C447AE7008618E4 /* Survey_Users_Start.png in Resources */ = {isa = PBXBuildFile; fileRef = ACB309EA1C447AE7008618E4 /* Survey_Users_Start.png */; };
 		ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */; };
 		ACD8858A1C437B820083D173 /* Doctor_Icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD885891C437B820083D173 /* Doctor_Icon_2.png */; };
 		ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */; };
@@ -76,6 +77,7 @@
 		ACB309D01C442B28008618E4 /* Down_Arrow_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Down_Arrow_Icon.png; sourceTree = "<group>"; };
 		ACB309DC1C444753008618E4 /* PROFILE_ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PROFILE_ICON.png; sourceTree = "<group>"; };
 		ACB309E21C44546C008618E4 /* LoginScreen_Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginScreen_Background.png; sourceTree = "<group>"; };
+		ACB309EA1C447AE7008618E4 /* Survey_Users_Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Survey_Users_Start.png; sourceTree = "<group>"; };
 		ACD885871C437AC20083D173 /* Cardio_Icon_2-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardio_Icon_2-3.png"; sourceTree = "<group>"; };
 		ACD885891C437B820083D173 /* Doctor_Icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Doctor_Icon_2.png; sourceTree = "<group>"; };
 		ACD8858B1C437BD30083D173 /* Clock_Icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock_Icon_2.png; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				AC99F5111C422EE300CDD5E1 /* FirstViewController.swift */,
 				AC99F5131C422EE300CDD5E1 /* SecondViewController.swift */,
 				AC99F5151C422EE300CDD5E1 /* Main.storyboard */,
+				ACB309EA1C447AE7008618E4 /* Survey_Users_Start.png */,
 				ACB309E21C44546C008618E4 /* LoginScreen_Background.png */,
 				ACB309CA1C4414BD008618E4 /* MarioBuildsScenesHere.storyboard */,
 				ACB309DC1C444753008618E4 /* PROFILE_ICON.png */,
@@ -289,6 +292,7 @@
 				ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */,
 				ACB309CD1C441502008618E4 /* Kbuildssceneshere.storyboard in Resources */,
 				149A17DB1C446D16006EE824 /* Image_MapMexico.png in Resources */,
+				ACB309EB1C447AE7008618E4 /* Survey_Users_Start.png in Resources */,
 				ACB309D11C442B28008618E4 /* Down_Arrow_Icon.png in Resources */,
 				149A17DD1C4471AC006EE824 /* Image_StreetMap.png in Resources */,
 				ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */,
