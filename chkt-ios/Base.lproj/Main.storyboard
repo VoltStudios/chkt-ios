@@ -27,7 +27,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CORREO ELECTRÓNICO" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1XK-eQ-YSZ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CORREO ELECTRÓNICO" borderStyle="roundedRect" placeholder="CORREO ELECTRÓNICO" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1XK-eQ-YSZ">
                                 <rect key="frame" x="101" y="279" width="229" height="30"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -82,15 +82,20 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="sDa-az-WI2" firstAttribute="top" secondItem="6ig-vq-fU2" secondAttribute="bottom" constant="-9" id="bqa-YZ-5Ea"/>
                             <constraint firstItem="6ig-vq-fU2" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="qMw-eA-suu"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="nQn-fV-cy7" appends="YES" id="sxn-zZ-77v"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" id="LbL-Yb-2jy"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="nQn-fV-cy7"/>
             </objects>
             <point key="canvasLocation" x="820.5" y="-85.5"/>
         </scene>
@@ -117,7 +122,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5Cv-pI-i9K" kind="show" id="QNb-VP-Mnk"/>
+                                    <segue destination="oxz-i6-5kw" kind="show" id="tOh-ge-g8p"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#CHKT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciw-om-3kd">
@@ -252,7 +257,7 @@ Seguir el tratamiento durante 5 días</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S3m-LU-R02" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3092.5" y="-903.5"/>
+            <point key="canvasLocation" x="2224.5" y="-1163.5"/>
         </scene>
         <!--#CHKT-->
         <scene sceneID="wg7-f3-ORb">
@@ -420,7 +425,7 @@ Seguir el tratamiento durante 5 días</string>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Fc-yV-c4q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1948.5" y="-777.5"/>
+            <point key="canvasLocation" x="2153.5" y="-833.5"/>
         </scene>
         <!--EXPEDIENTE-->
         <scene sceneID="m9e-rb-1sM">
@@ -1360,7 +1365,7 @@ RECORDATORIO DE CITA</string>
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZZH-cw-Bdj" kind="show" id="bEm-Va-C9M"/>
+                                    <segue destination="oxz-i6-5kw" kind="show" id="Rwa-GN-UwD"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsA-KP-YyR">
@@ -1394,7 +1399,7 @@ RECORDATORIO DE CITA</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BM4-4n-U7T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3165.5" y="-1675.5"/>
+            <point key="canvasLocation" x="2404.5" y="-959.5"/>
         </scene>
         <!--Appt_Needed_PopUp-->
         <scene sceneID="krc-KE-82t">
@@ -2076,10 +2081,9 @@ tel: 01 55 5238 2700</string>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="1fF-pq-5AU"/>
+        <segue reference="BVM-4w-Hon"/>
         <segue reference="9oG-fE-bHg"/>
-        <segue reference="sGy-Pf-YMY"/>
         <segue reference="Ztr-sd-SgZ"/>
-        <segue reference="HzI-ei-j8e"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.979248046875" green="0.979248046875" blue="0.979248046875" alpha="0.0" colorSpace="calibratedRGB"/>
 </document>
