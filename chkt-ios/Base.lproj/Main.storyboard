@@ -387,8 +387,8 @@
                                 <color key="shadowColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PatientProgress_Chart.png" translatesAutoresizingMaskIntoConstraints="NO" id="JXc-cP-vND">
-                                <rect key="frame" x="47" y="199" width="289" height="154"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PatientProgress_Chart.png" translatesAutoresizingMaskIntoConstraints="NO" id="eqk-NG-nxn">
+                                <rect key="frame" x="67" y="207" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
