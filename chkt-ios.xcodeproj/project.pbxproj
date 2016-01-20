@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14256A821C4FF54A00F20CDA /* PatientProgress_Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 14256A811C4FF54A00F20CDA /* PatientProgress_Chart.png */; };
+		14256A861C4FF9F200F20CDA /* ScreenShot_Patient.png in Resources */ = {isa = PBXBuildFile; fileRef = 14256A851C4FF9F200F20CDA /* ScreenShot_Patient.png */; };
 		149A17D71C445A77006EE824 /* Image_Calendar_Good.png in Resources */ = {isa = PBXBuildFile; fileRef = 149A17D61C445A77006EE824 /* Image_Calendar_Good.png */; };
 		149A17D91C446889006EE824 /* Image_Continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 149A17D81C446889006EE824 /* Image_Continue.png */; };
 		149A17DB1C446D16006EE824 /* Image_MapMexico.png in Resources */ = {isa = PBXBuildFile; fileRef = 149A17DA1C446D16006EE824 /* Image_MapMexico.png */; };
@@ -51,7 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14256A811C4FF54A00F20CDA /* PatientProgress_Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PatientProgress_Chart.png; sourceTree = "<group>"; };
+		14256A851C4FF9F200F20CDA /* ScreenShot_Patient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot_Patient.png; sourceTree = "<group>"; };
 		149A17D61C445A77006EE824 /* Image_Calendar_Good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Image_Calendar_Good.png; path = "chkt-ios/Image_Calendar_Good.png"; sourceTree = "<group>"; };
 		149A17D81C446889006EE824 /* Image_Continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_Continue.png; sourceTree = "<group>"; };
 		149A17DA1C446D16006EE824 /* Image_MapMexico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_MapMexico.png; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 				AC99F5111C422EE300CDD5E1 /* FirstViewController.swift */,
 				AC99F5131C422EE300CDD5E1 /* SecondViewController.swift */,
 				AC99F5151C422EE300CDD5E1 /* Main.storyboard */,
-				14256A811C4FF54A00F20CDA /* PatientProgress_Chart.png */,
+				14256A851C4FF9F200F20CDA /* ScreenShot_Patient.png */,
 				ACB309E21C44546C008618E4 /* LoginScreen_Background.png */,
 				ACB309CA1C4414BD008618E4 /* MarioBuildsScenesHere.storyboard */,
 				ACB309DC1C444753008618E4 /* PROFILE_ICON.png */,
@@ -290,12 +290,12 @@
 				AC99F5191C422EE300CDD5E1 /* Assets.xcassets in Resources */,
 				149A17DF1C4472BA006EE824 /* Image_Confirmation.png in Resources */,
 				ACD885881C437AC20083D173 /* Cardio_Icon_2-3.png in Resources */,
-				14256A821C4FF54A00F20CDA /* PatientProgress_Chart.png in Resources */,
 				ACB309CD1C441502008618E4 /* Kbuildssceneshere.storyboard in Resources */,
 				149A17DB1C446D16006EE824 /* Image_MapMexico.png in Resources */,
 				ACB309D11C442B28008618E4 /* Down_Arrow_Icon.png in Resources */,
 				149A17DD1C4471AC006EE824 /* Image_StreetMap.png in Resources */,
 				ACD8858C1C437BD30083D173 /* Clock_Icon_2.png in Resources */,
+				14256A861C4FF9F200F20CDA /* ScreenShot_Patient.png in Resources */,
 				149A17D91C446889006EE824 /* Image_Continue.png in Resources */,
 				ACB309DD1C444753008618E4 /* PROFILE_ICON.png in Resources */,
 				AC23CD3A1C43158300A7C885 /* ic_email_white_36pt_3x.png in Resources */,

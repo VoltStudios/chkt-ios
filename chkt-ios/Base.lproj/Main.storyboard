@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S3m-LU-R02" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="756.5" y="-2349.5"/>
+            <point key="canvasLocation" x="3092.5" y="-903.5"/>
         </scene>
         <!--#CHKT-->
         <scene sceneID="wg7-f3-ORb">
@@ -388,7 +388,7 @@
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ScreenShot_Patient.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wga-ZU-bjX">
-                                <rect key="frame" x="67" y="214" width="240" height="128"/>
+                                <rect key="frame" x="51" y="205" width="283" height="150"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1936,14 +1936,14 @@ tel: 01 55 5238 2700</string>
         <image name="Image_StreetMap.png" width="540" height="579"/>
         <image name="LoginScreen_Background.png" width="750" height="1334"/>
         <image name="PROFILE_ICON.png" width="254" height="254"/>
-        <image name="ScreenShot_Patient.png" width="649" height="315"/>
+        <image name="ScreenShot_Patient.png" width="679" height="322"/>
         <image name="ic_email_white_36pt_3x.png" width="108" height="108"/>
         <image name="ic_lock_white_36pt_3x.png" width="108" height="108"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="Ztr-sd-SgZ"/>
         <segue reference="1fF-pq-5AU"/>
-        <segue reference="HzI-ei-j8e"/>
+        <segue reference="bEm-Va-C9M"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.979248046875" green="0.979248046875" blue="0.979248046875" alpha="0.0" colorSpace="calibratedRGB"/>
 </document>
